@@ -1,0 +1,113 @@
+﻿@{
+    Layout = null;
+    
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        h2 {
+            width: 320px;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 0;
+        }
+        .nav {
+            background-color: aqua;
+            list-style-type: none;
+            text-align: center;
+            position:sticky;
+            top:0;
+            margin: 0;
+            padding: 0;
+        }
+
+            .nav li {
+                display: inline-block;
+                font-size: 20px;
+                padding: 20px;
+            }
+        /* visited link */
+        a:visited {
+            color: green;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: hotpink;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+        @*li.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+        }*@
+        p::first-letter {
+            font-size: 30px;
+            color: red;
+            float: left;
+        }
+
+        .container {
+            height: 1200px;
+            border: 1px solid #000000;
+        }
+
+        div {
+            padding: 10px;
+        }
+
+        .green {
+            background-color: green;
+            position: static;
+        }
+
+        .red {
+            background-color: red;
+            position: fixed;
+            top: 0px;
+        }
+
+        .yellow {
+            background-color: yellow;
+            position: static;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+    <h2>Calculate the total width:</h2>
+    <div>The picture above is 350px wide. The total width of this element is also 350px.</div>
+    <ul class="nav">
+        <li ><a href="https://localhost:44375/Home/">Home</a></li>
+        <li ><a href="https://web.facebook.com/">About Us</a></li>
+        <li><a href="https://localhost:44392/API/Employees/TestCORS">Our Clients</a></li>
+        <li><a href="https://localhost:44375/Home/Privacy">Contact Us</a></li>
+    </ul>
+    <div class="container">
+        <div class="green">Green</div>
+        <div class="red">Red</div>
+        <div class="yellow">Yellow</div>
+    </div>
+</body>
+</html>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+    $.ajax({
+        url: "https://localhost:44392/API/Employees/TestCORS",
+        success: function (result) {
+            console.log(result);
+        }
+    })
+</script>

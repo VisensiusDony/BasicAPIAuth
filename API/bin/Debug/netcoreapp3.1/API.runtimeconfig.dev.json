@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Visensius Dony\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Visensius Dony\\.nuget\\packages"
+    ]
+  }
+}
