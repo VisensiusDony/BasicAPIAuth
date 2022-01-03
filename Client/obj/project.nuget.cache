@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aHiMIjRnJiA4kuOqTMDpvsp+4ywqUQUlvmnTpZpvw+aIbQv/TiRy8BWOUL/lLRjuCcNE0CrQ+FQtNWizME8G6Q==",
+  "dgSpecHash": "GWPZT9tbyYQj3s8z11VtgAOwlCS36KdBMI+RF6kLWGEIQ3fbixusOWu57DUMfC1KbNr2JZ8H6DqhVsdIi4PxPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Visensius Dony\\source\\repos\\API\\Client\\Client.csproj",
+  "projectFilePath": "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\Client\\Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

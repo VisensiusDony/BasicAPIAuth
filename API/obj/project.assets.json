@@ -8071,11 +8071,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Visensius Dony\\source\\repos\\API\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Visensius Dony\\source\\repos\\API\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Visensius Dony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Visensius Dony\\source\\repos\\API\\API\\obj\\",
+      "outputPath": "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Visensius Dony\\AppData\\Roaming\\NuGet\\NuGet.Config",

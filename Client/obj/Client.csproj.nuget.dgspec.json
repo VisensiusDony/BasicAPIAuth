@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Visensius Dony\\source\\repos\\API\\Client\\Client.csproj": {}
+    "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Visensius Dony\\source\\repos\\API\\Client\\Client.csproj": {
+    "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Visensius Dony\\source\\repos\\API\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\Visensius Dony\\source\\repos\\API\\Client\\Client.csproj",
+        "projectPath": "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\Visensius Dony\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Visensius Dony\\source\\repos\\API\\Client\\obj\\",
+        "outputPath": "C:\\Users\\Visensius Dony\\source\\repos\\BasicAPIAuth\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Visensius Dony\\AppData\\Roaming\\NuGet\\NuGet.Config",
